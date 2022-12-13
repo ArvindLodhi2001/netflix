@@ -1,0 +1,690 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.bodyyy
+{
+    background-image: rgba(0,0,0,.8);
+    height: 1000px;
+}
+
+body
+{
+    background:rgba(0,0,0,0.8)url(images/netflix3.jpg);
+    /*  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0px;
+    background-blend-mode: darken;
+}
+
+.logo 
+{
+    margin-left: 40px;
+    margin-top: -10px; 
+}
+
+.logo img
+{   margin-left: 10px;
+    height:130px;
+     width:190px;
+}
+
+.select_signIn
+{
+ margin-left: 83%;
+ margin-top: -5.5%;
+ display: flex;
+
+ 
+}
+
+input
+{
+    background: transparent;
+    width: 100px;
+    height:38px ;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+button
+{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    border: red;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.heading h1
+{
+    margin-top:6%;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.heading h3
+{
+    margin-top: 30px;
+color:white;
+text-align: center;
+font-size: 30px;
+line-height: 40px;
+
+}
+
+.heading h4
+{
+    margin-top: 5px ;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.search
+{
+    display: flext;
+    justify-content: space-between;
+    margin-left: 27%;
+}
+
+
+.search input
+{
+    text-align: center;
+    width: 510px;
+    height: 60px;
+    border:2px solid white;
+    font-size: 25px;
+    background-color: white;
+    color: black ;
+}
+.search button
+{
+    height: 63px;
+    border-radius: 7px;
+    width: 200px;
+    border: 2px solid black;
+   
+}
+
+hr
+{
+    margin-top:100px ;
+    border: 5px solid gray;
+}
+
+.abc
+{
+    background-color: black;
+}
+
+.contentbox
+{
+    border: 2px solid black;
+    background-color: black;
+    height: auto;
+    width: auto;
+   
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}
+
+.content
+{
+    color: white;
+    width: 800px;
+    
+
+}
+
+.content h1
+{
+    font-size: 62px;
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+.content p
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.tvimage
+{
+    margin-top: -260px;
+    margin-left: 60%;
+    height: 380px;
+    width: 550px;
+}
+
+.mobileContent
+{
+    color: white;
+    width: 600px; 
+    margin-left: 50%;
+    margin-top: 80px;
+}
+
+.mobileContent h1
+{
+    font-size: 62px;
+    color: white;
+}
+
+.mobileContent p
+{
+    font-size: 30px;
+}
+
+.mobileImage
+{
+    margin-top: -250px;
+}
+
+.Laptopcontent
+{
+    color: white;
+    width:550px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.Laptopcontent h1
+{
+    font-size: 62px;
+}
+
+.Laptopcontent p
+{
+    font-size: 30px; 
+    margin-top: 20px;
+}
+
+.laptopimage
+{
+    margin-top: -200px;
+    margin-left: 900px;
+}
+
+.childrencontent
+{
+    color:white;
+    width: 550px;
+    margin-left: 50%;
+    margin-top: 80px;
+}
+
+.childrencontent h1
+{
+    font-size: 62px;
+    
+}
+
+.childrencontent p
+{
+    font-size: 30px; 
+    margin-top: 20px;
+}
+
+.childrenimg
+{
+    margin-left: 55px;
+    margin-top: -320px;
+}
+
+.Question
+{
+    color: white;
+}
+
+.Question h1
+{
+    width: 800px;
+    margin-top: 80px;
+    font-size: 62px;
+    margin-left: 28%;
+    
+}
+
+.Qus
+{
+    margin-left: 26%;
+    margin-top: 4%;
+}
+.Qus h4
+{
+    width: 800px;
+    height: auto;
+    background-color: gray;
+    font-size: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.search_heading
+{
+    margin-top:2%;
+    color: white;
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+.search_heading h1
+{
+    width: 900px;
+}
+
+.Endbtn
+{
+width: 700px;
+}
+
+.search_heading input
+{
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-left: 21%;
+    margin-top: 20px;
+}
+
+.Endbtn button
+{
+color: white;
+background-color: red;
+height: 50px;
+width: 16%;
+}
+
+footer
+{
+    height: 450px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    color: whitesmoke;
+    background-color: black;
+    
+    
+}
+ 
+ h1
+{
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.column
+{
+    border: 0px solid white;margin-left:-10px ;
+    height: 280px;
+    width: 80%;
+     margin-top: 30px;
+     margin-left: 20px;
+    
+}
+.column h1
+{
+
+    margin-top: 15px;
+ font-weight: none;   
+ font-size: 20px;
+ text-align: center;
+ line-height: 45px;
+
+}
+.column h1 a
+{
+    
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+ 
+select
+{
+    margin-left: 40%;
+    margin-top: -20%;
+    font-size: 20px;
+    height: 60px;
+    width: 120px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: red;
+}
+
+ option
+{
+    background-color: transparent;
+}
+
+.end
+{
+    margin-left: -55%;
+}
+
+
+@media(max-width: 480px){
+ 
+    body
+    {
+        height: 540px;
+    }
+   .logo img{
+    height: 91px;
+    width: 131px;
+    margin-left: -37px;
+   }
+   .select_signIn{
+    margin-left: 38%;
+    margin-top: -17.7%;
+   }
+   input{
+    width: 93px;
+    height: 31px;
+
+   }
+   button{
+    width: 97px;
+    height: 34px;
+   }
+ .heading h1
+ {
+   margin-top: 19%;
+    font-size: 32px;
+    text-align: center;
+ }
+
+ .heading h3
+ {
+    margin-top: 13px;
+    font-size: 21px;
+ }
+
+ .heading h4
+ {
+    padding: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+  font-size: 25px;
+  line-height: 26px;
+  text-align: center;
+ }
+
+ .search
+ {
+    
+   margin-left: 3.5%;
+ }
+ .search input
+ {
+    text-align: center;
+    width: 340px;
+    height: 41px;
+    margin-top: 10px;
+    color: black;
+ }
+
+ .search button
+ {
+    margin-top: 15px;
+    margin-left: 20%;
+    height: 52px;
+    width: 150px;
+    border-radius: 7px;
+ }
+
+  }
+
+  @media(max-width: 360px){
+
+
+    .search
+    {
+       
+      margin-left: 2.5%;
+    }
+
+    .search input
+    {
+        width: 320px;
+    }
+    .search button
+    {
+        margin-left: 23%;
+    }
+  }
+ 
+
+
+
+
+  @media(max-width: 740px){
+
+    body
+    {
+        height: 740px;
+    }
+
+
+
+    .logo img
+    {
+        margin-left: -29px;
+    }
+
+    .select_signIn
+    {
+        margin-left: 68%;
+        margin-top: -12.5%;
+    }
+
+    .heading h1
+    {
+        margin-top: 12%;
+        font-size: 40px;
+
+    }
+
+    .heading h3
+    {
+        margin-top: 17px;
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .heading h4
+    {
+        font-size: 22px;
+    }
+
+    .search
+    {
+        margin-left: 6%;
+    }
+    .search input
+    {
+      width:422px;
+      height: 50px;
+    }
+    .search button
+    {
+        height: 57px;
+    }
+  }
+
+  @media(max-width:655px ){
+
+
+    .search
+    {
+        margin-left: 18%;
+    }
+
+    .search button
+    {
+        margin-top: 10px;
+      margin-left: 20%;  
+    }
+
+    .select_signIn
+    {
+        margin-left: 62%;
+        margin-top: -13.5;
+    }
+
+  } 
+
+  @media(max-width: 1304px){
+
+    .select_signIn
+    {
+        margin-left: 185%;
+    }
+
+    .heading h1
+    {
+        width: 700px;
+        margin-left: 15%;
+        margin-top: 46%;
+    }
+    .heading h3
+    {
+        width: 700px;
+        margin-left: 15%;
+        margin-top: 35px;
+    }
+
+    .heading h4
+    {
+        width: 700px;
+        margin-left: 15%;
+    }
+
+    .search
+    {
+        margin-top: 12%;
+        margin-left: 63%;
+    }
+
+    .search button
+    {
+        margin-left: 125%;
+        margin-top: 33%;
+    }
+
+    .contentbox
+    {
+    width:775px;
+    height: 800px;
+    background-color: black;
+    }
+
+    .content h1
+    {
+        margin-left: 141px;
+       
+    }
+    .content p
+    {
+        font-size: 38px;
+        margin-left: 80px;
+    }
+
+
+
+
+    .tvimage
+    {
+
+        margin-left: 17%;
+        margin-top: 28px;
+    }
+
+    .mobileContent
+    {
+        margin-left: 15%;
+    }
+
+    .mobileImage
+    {
+        margin-top: 55px;
+        margin-left: 90px;
+    }
+
+    .Laptopcontent
+    {
+        margin-left: 140px;
+    }
+
+    .laptopimage
+    {
+        margin-left: 106px;
+        margin-top: 100px;
+    }
+
+    .childrencontent
+    {
+        margin-left: 54%;
+        margin-top: 95px;
+    }
+
+    .childrenimg
+    {
+        margin-top: 65px;
+        margin-left: 92px;
+    }
+
+    .Questions h1
+    {
+        text-align: center;
+    }
+
+    .Qus
+    {
+        margin-top: 10px;
+    }
+    .Qus h4
+    {
+       
+        width: 550px;
+    }
+
+
+    .search_heading input
+    {
+        width: 150;
+        margin-left:15% ;
+    }
+
+
+  }
+
+
+  @media(max-width: 1439px){
+
+
+
+    .contentbox
+    {
+        width: auto;
+    }
+
+  }
